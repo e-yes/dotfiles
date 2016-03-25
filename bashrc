@@ -30,3 +30,7 @@ export GTK2_RC_FILES="/home/e-yes/.gtkrc-2.0"
 export ANDROID_JAVA_HOME=/opt/sun-jdk-1.6.0.45
 
 XDG_CONFIG_HOME="$HOME/.config"
+
+# Google Cloud SDK
+source ~/projects/google-cloud-sdk/path.bash.inc
+source ~/projects/google-cloud-sdk/completion.bash.inc
