@@ -1,0 +1,19 @@
+URxvt*font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-*-*
+Rxvt*background: #000000
+Rxvt*foreground: #ffffff
+Rxvt*scrollColor: #111111
+
+emacs.font: -*-terminus-medium-*-normal-*-20-*-*-*-*-*-iso10646-*
+emacs.reverseVideo:on
+emacs.cursorColor:#ff0000
+emacs.geometry:90x41
+emacs.scrollColor: #111111
+
+xterm*font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-koi8-*
+xterm*reverseVideo: true
+xterm*scrollBar: true
+xterm*rightScrollBar: true
+xterm*saveLines: 500
+
+XLock.font: -*-terminus-medium-*-normal-*-22-*-*-*-*-*-iso10646-*
+XLock.startCmd: /usr/bin/ssh-add -D
