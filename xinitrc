@@ -18,7 +18,7 @@ xcompmgr -d :0 &
 /usr/bin/pulseaudio -k
 /usr/bin/pulseaudio &
 
-lxpanel &
+tint2 &
 
 # HP Pavilion PV7 touchpad tuning
 # http://thegnar.org/sync/?p=207
