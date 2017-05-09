@@ -15,3 +15,5 @@ keycode 242  = XF86Launch3
 keycode 241  = XF86Launch4
 keycode 251  = XF86LaunchA
 keycode 252  = XF86LaunchB
+keycode 232  = XF86MonBrightnessDown
+keycode 233  = XF86MonBrightnessUp

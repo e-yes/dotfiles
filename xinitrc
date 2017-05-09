@@ -12,7 +12,7 @@ fi
 
 feh --bg-scale ~/.backgrounds/tiger.jpg
 
-killall xcompmgr
+killall xcompmgr 2>/dev/null
 xcompmgr -d :0 &
 
 /usr/bin/pulseaudio -k
