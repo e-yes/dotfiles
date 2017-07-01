@@ -168,6 +168,10 @@
 ;;  http://fly.srk.fer.hr/~hniksic/emacs/htmlize.el
 (require 'htmlize)
 
+;;; DTS-mode
+;; https://raw.githubusercontent.com/bgamari/dts-mode/master/dts-mode.el
+(require 'dts-mode)
+
 ;;;   Руссификация
 ;; Устанавливаем кодировки по умолчанию для файлов,
 ;; буферов и обмена с внешними программами
