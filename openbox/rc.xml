@@ -349,12 +349,12 @@
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <execute>/usr/bin/amixer -q set Master 2- unmute</execute>
+        <execute>/usr/bin/amixer -q -D pulse sset Master 5%- unmute</execute>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <execute>/usr/bin/amixer -q set Master 2+ unmute</execute>
+        <execute>/usr/bin/amixer -q -D pulse sset Master 5%+ unmute</execute>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
