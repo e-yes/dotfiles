@@ -27,10 +27,15 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 export DJANGO_SETTINGS_MODULE=settings
 export PATH=$PATH:/sbin:/usr/sbin:/home/e-yes/bin
 export GTK2_RC_FILES="/home/e-yes/.gtkrc-2.0"
-export ANDROID_JAVA_HOME=/opt/sun-jdk-1.6.0.45
+#export ANDROID_JAVA_HOME=/opt/sun-jdk-1.6.0.45
 
 XDG_CONFIG_HOME="$HOME/.config"
 
+# Bazel
+#source /home/e-yes/.bazel/bin/bazel-complete.bash
+
 # Google Cloud SDK
-source ~/projects/google-cloud-sdk/path.bash.inc
-source ~/projects/google-cloud-sdk/completion.bash.inc
+#source ~/projects/google-cloud-sdk/path.bash.inc
+#source ~/projects/google-cloud-sdk/completion.bash.inc
+
+export GIT_EDITOR=vim
