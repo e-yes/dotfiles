@@ -34,7 +34,7 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 
 # Misc
 export DJANGO_SETTINGS_MODULE=settings
-export PATH=$PATH:/sbin:/usr/sbin:/home/e-yes/bin
+export PATH=$PATH:/sbin:/usr/sbin:$HOME/bin:$HOME/go/bin
 export GTK2_RC_FILES="/home/e-yes/.gtkrc-2.0"
 #export ANDROID_JAVA_HOME=/opt/sun-jdk-1.6.0.45
 
