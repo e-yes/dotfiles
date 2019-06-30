@@ -42,6 +42,8 @@ XDG_CONFIG_HOME="$HOME/.config"
 
 export GIT_EDITOR=vim
 
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64"
+
 if [ -f ~/.sdb/.sdb-completion.bash ]; then
  source ~/.sdb/.sdb-completion.bash
 fi
