@@ -20,6 +20,15 @@ if [ -f /usr/share/mc/mc.gentoo ]; then
 	. /usr/share/mc/mc.gentoo
 fi
 
+# bash history tuning
+# https://www.shellhacks.com/tune-command-line-history-bash/
+export HISTTIMEFORMAT="%h %d %H:%M:%S "
+export HISTSIZE=10000
+export HISTCONTROL="ignorespace:erasedups"
+export HISTIGNORE="ls:ps:history"
+shopt -s histappend
+shopt -s cmdhist
+
 # Aliases
 alias la='ls -la'
 alias ll='ls -sl'
