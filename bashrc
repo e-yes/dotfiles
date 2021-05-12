@@ -39,6 +39,7 @@ alias ll='ls -sl'
 alias ec='emacsclient -n'
 alias qu='qpdfview --unique'
 alias logcat='adb logcat -v threadtime | tee `date +%F-%H%M%S.log`'
+alias apktool="java -jar ${HOME}/.local/bin/apktool.jar"
 
 # CLI Colors
 export CLICOLOR=1
