@@ -1,4 +1,4 @@
-export LANG="ru_RU.UTF-8"
+export LANG="en_US.UTF-8"
 
 export PATH=$PATH:/sbin:/usr/sbin:$HOME/.local/bin:$HOME/go/bin:$HOME/projects/flutter/sdk/bin
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64"
@@ -19,9 +19,8 @@ export PS1="\n\[\e[0;36m\]┌─[\[\e[0m\]\[\e[1;33m\]\u\[\e[0m\]\[\e[1;36m\] @ 
     export GIT_PS1_SHOWUPSTREAM="auto verbose name" && \
 PROMPT_COMMAND='__git_ps1 "\n\[\e[0;36m\]┌─[\[\e[0m\]\[\e[1;33m\]\u\[\e[0m\]\[\e[1;36m\] @ \[\e[0m\]\[\e[1;33m\]\h\[\e[0m\]\[\e[0;36m\]]─[\[\e[0m\]\[\e[1;34m\]\w\[\e[0m\]\[\e[0;36m\]]\[\e[0;36m\]─[\[\e[0m\]\[\e[0;31m\]\t\[\e[0m\]\[\e[0;36m\]]\[\e[0m\]\n\[\e[0;36m\]└─[\[\e[0m\]\[\e[1;37m\]\$\[\e[0m\]" "\[\e[0;36m\]]› \[\e[0m\]"'
 
-# Midnight Commander chdir enhancement
-if [ -f /usr/share/mc/mc.gentoo ]; then
-	. /usr/share/mc/mc.gentoo
+if [ -f /usr/libexec/mc/mc.sh ]; then
+    source /usr/libexec/mc/mc.sh
 fi
 
 # bash history tuning
