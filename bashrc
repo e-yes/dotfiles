@@ -40,6 +40,12 @@ alias qu='qpdfview --unique'
 alias logcat='adb logcat -v threadtime | tee `date +%F-%H%M%S.log`'
 alias apktool="java -jar ${HOME}/.local/bin/apktool.jar"
 
+# Functions
+mkcdir()
+{
+    mkdir -p -- "$1" && cd -P -- "$1"
+}
+
 # CLI Colors
 export CLICOLOR=1
 # Set "ls" colors
